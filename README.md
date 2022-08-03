@@ -1,3 +1,9 @@
+# Click "Register" on the navigation bar to search for movies
+
+https://djag477.github.io/movies/
+
+![Screenshot 2022-08-03 215006](https://user-images.githubusercontent.com/101579022/182696891-ef14c353-da27-4db2-ac57-8996caec8346.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
