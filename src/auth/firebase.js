@@ -1,5 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { firebaseConfig } from "../utils/config";
 // import { getAnalytics } from "firebase/analytics";
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -17,19 +18,8 @@ import {
   signInWithPopup,
 } from "firebase/auth";
 
-
-
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyBnkgK0uMMSjIPW6ODMCvubA02zm7axGnk",
-  authDomain: "movieapp-c5bb8.firebaseapp.com",
-  projectId: "movieapp-c5bb8",
-  storageBucket: "movieapp-c5bb8.appspot.com",
-  messagingSenderId: "31316088826",
-  appId: "1:31316088826:web:5d03d09d7642488ce67643",
-  measurementId: "G-361WG7VWPY",
-};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -62,7 +52,6 @@ export const signIn = async (email, password) => {
 
 export const logOut = () => {
   signOut(auth);
-  
 };
 
 // user observer
